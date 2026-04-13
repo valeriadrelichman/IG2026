@@ -1,0 +1,28 @@
+/* Estilos de la página */
+body {
+    background-color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    background-color: white;
+}
+h2 {
+    background-color: white;
+}
+h3 {
+    background-color: black;
+    color: white;
+}
+p {
+    color: white;
+}
+#descripcion {
+    background-color: chocolate;
+}
+.bit {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
