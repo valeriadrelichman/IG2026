@@ -1,0 +1,232 @@
+/* ----------------------------------------------- */
+/* Estilos generales */
+/* ----------------------------------------------- */
+* { box-sizing: border-box; }
+body {
+	margin: 0;
+	padding: 0;
+	background: lightgray;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+#contenedor {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+header, footer {
+	background: orange;
+	padding: 1em;
+	text-align: center;
+}
+main {
+	padding: 2em;
+	background: white;
+}
+h1 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+h2 {
+	font-weight: 700;
+}
+li {
+	line-height: 1.8em;
+}
+a:link {
+	color: orange;
+}
+a:visited {
+	color: orange;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: red;
+}
+a.volver {
+	color: #333;
+	background-color: #EEE;
+	text-decoration: none;
+}
+
+
+/* ----------------------------------------------- */
+/* Estilos ejemplo selectores */
+/* ----------------------------------------------- */
+
+/* Selectores agrupados */
+h3, h4, h5 {
+	color: orange;
+}
+
+/* Selectores descendientes */
+p strong {
+	color: red;
+}
+h3 span {
+	color: blue;
+}
+p span {
+	color: green;
+}
+.uno span {
+	color: darkviolet;
+}
+h3 .uno {
+	color: hotpink;
+}
+
+/* Selectores combinados */
+h3.uno {
+	color: red;
+}
+
+
+/* ----------------------------------------------- */
+/* Estilos ejemplo pseudo-clases y pseudo-elementos */
+/* ----------------------------------------------- */
+
+a.una:link {
+	font-size: 2em;
+	color: black;
+}
+a.una:visited {
+	font-size: 2em;
+	color: green;
+}
+a.una:hover {
+	font-size: 2em;
+	color: blue;
+}
+a.una:active {
+	font-size: 2em;
+	color: darkgrey;
+}
+.cuadrado {
+	width: 100px;
+	height: 100px;
+	background: gray;
+}
+.cuadrado:hover {
+	background: pink;
+}
+
+/* Este código está comentado para ir probando qué pasa */
+/*
+h3:first-child {
+	color: red;
+}
+p:last-child {
+	color: green;
+}
+p:first-of-type {
+	color: blue;
+}
+h3:last-of-type {
+	color: darkviolet;
+}
+p::before {
+	content: "*";
+	color: red;
+}
+p::first-letter {
+	color: red;
+	font-size: 3em;
+}
+::selection {
+	color: red;
+	background-color: yellow;
+}
+*/
+
+
+/* ----------------------------------------------- */
+/* Estilos ejemplo box model */
+/* ----------------------------------------------- */
+
+.caja1 {
+	background: gray;
+	width: 100%;
+	padding: 2em;
+	border: 3px solid red;
+}
+.caja2 {
+	background: red;
+	width: 30%;
+	margin: 2em;
+}
+.caja3 {
+	background: blue;
+	width: 40%;
+}
+
+
+/* ----------------------------------------------- */
+/* Estilos ejemplo overflow */
+/* ----------------------------------------------- */
+.bloque1, .bloque2, .bloque3, .bloque4 {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+	float: left;
+}
+.bloque1 {
+	background: #CCC;
+	overflow: auto;
+}
+.bloque2 {
+	background: #CFC;
+	overflow: hidden;
+}
+.bloque3 {
+	background: #FCC;
+	overflow: scroll;
+}
+.bloque4 {
+	background: #CCF;
+	overflow: visible;
+}
+.clearfix {
+	overflow: auto;
+}
+
+
+/* ----------------------------------------------- */
+/* Estilos ejemplo menú de navegación */
+/* ----------------------------------------------- */
+nav {
+	background-color: #CCC;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline-block;	
+}
+nav a {
+	font-size: 1.4em;
+	line-height: 2.2em;
+	padding: 0.4em 1em;
+	text-align: center;
+	text-decoration: none;
+}
+nav a:link {
+	background-color: #999;
+	color: #000;
+}
+nav a:visited {
+	background-color: #999;
+	color: #000;
+}
+nav a:hover {
+	background-color: #000;
+	color: #FFF;
+}
+nav a:active {
+	background-color: #F00;
+	color: #FFF;
+}
