@@ -1,0 +1,29 @@
+/* ----------------------------------------------- */
+/* Estilos ejemplo formulario */
+/* ----------------------------------------------- */
+
+form {
+	background: #BBB;
+	border: 0.4em solid darkorange;
+	padding: 1em;
+}
+fieldset {
+	background: #DDD;
+	border: 0.2em solid orange;
+	margin: 1em 0;
+}
+legend {
+	color: darkorange;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #FFF;
+	padding: 0.2em;
+}
+label {
+	color: darkorange;
+}
+button {
+	background: orange;
+	color: white;
+	padding: 0.5em;
+}

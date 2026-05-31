@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Informática General - Ejemplos clase 08</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/estilos-formulario.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Informática General</h1>
+		</header>
+		<main>
+			<h2>Ejemplo formulario</h2>
+			
+			<section>
+            <h3>Por favor, complete el siguiente formulario</h3>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre: *</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label for="apellido">Apellido: *</label>
+                    <input type="text" name="apellido" id="apellido" required>
+                    <label for="dni">DNI:</label>
+                    <input type="number" name="dni" id="dni">
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de usuario</legend>
+                    <label for="mail">Email:</label>
+                    <input type="email" name="mail" name="mail">
+                    <label for="contrasena">Contraseña:</label>
+                    <input type="password" name="contrasena" id="contrasena">
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de inscripción</legend>
+                    <label for="inscrip">Fecha de inscripción</label>
+                    <input type="date" name="inscrip" id="inscrip">
+                    <label for="carrera">¿En qué carrera te inscribiste?</label>
+                    <select name="carrera" id="carrera">
+                        <option value="visuales">Artes visuales</option>
+                        <option value="audiovisual">Artes audiovisuales</option>
+                        <option value="multimedia" selected>Artes multimediales</option>
+                        <option value="musica">Artes musicales</option>
+                        <option value="critica">Crítica de artes</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de cursada</legend>
+                    <p>¿Estás cursando este año?</p>
+                    <!-- En los campos tipo radio todas las opciones deben tener el mismo valor para el atributo name. El id será distinto del nombre porque no se puede repetir. Es obligatorio definir un valor para el atributo value. -->
+                    <input type="radio" name="cursa" id="cursa1" value="si">
+                    <label for="cursa1">Sí</label>
+                    <input type="radio" name="cursa" id="cursa2" value="no">
+                    <label for="cursa2">No</label>
+                    <p>¿De qué años cursás materias?</p>
+                    <!-- En los campos tipo checkbox todas las opciones deben tener un valor diferente para el atributo name. Es obligatorio definir un valor para el atributo value. -->
+                    <input type="checkbox" name="primero" id="primero" value="1">
+                    <label for="primero">Primer año</label>
+                    <input type="checkbox" name="segundo" id="segundo" value="2">
+                    <label for="segundo">Segundo año</label>
+                    <input type="checkbox" name="tercero" id="tercero" value="3">
+                    <label for="tercero">Tercer año</label>
+                    <input type="checkbox" name="cuarto" id="cuarto" value="4">
+                    <label for="cuarto">Cuarto año</label>
+                </fieldset>
+                <fieldset>
+                    <legend>Comentarios</legend>
+                    <!-- El atributo placeholder sirve para mostrar un valor de referencia sin modificar el atributo value. -->
+                    <textarea name="comentarios" id="comentarios" cols="50" rows="10" placeholder="Dejanos tus comentarios sobre la Universidad"></textarea>
+                </fieldset>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </form>
+        	</section>
+
+			<p><a href="index.html" class="volver">» volver a index «</a></p>
+		</main>
+		<footer>
+			<p>IG2026 - Cátedra: Valeria Drelichman | Pedro Paleo | Leonardo Nadel | Norma Morales</p>
+		</footer>
+	</div>
+</body>
+</html>
