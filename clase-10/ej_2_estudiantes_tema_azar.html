@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Informática General - Ejemplos clase 10</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Informática General</h1>
+		</header>
+		<main>
+			<h2>Objetos</h2>
+			
+			<section>
+            	<h3>Listado de estudiantes con tema asignado al azar</h3>
+            	<p>Hacer un programa permita ingresar a través de un formulario los datos personales (nombre, apellido y DNI) de 5 estudiantes y los guarde. Antes de guardarlos, se deben validar los datos. A cada estudiante se le debe asignar un tema de parcial entre 9 temas disponibles. Luego mostrar en la página una lista indicando el apellido y el tema asignado.</p>
+				<form id="ingresoDatos">
+					<label>Ingresar nombre:</label>
+					<input type="text" name="nombre" id="nombre"><br>
+					<label>Ingresar apellido:</label>
+					<input type="text" name="apellido" id="apellido"><br>
+					<label>Ingresar DNI:</label>
+					<input type="number" name="dni" id="dni"><br>
+					<button id="ingresar">Ingresar datos</button>
+				</form>
+            	<ul class="listado">
+            		
+            	</ul>
+        	</section>
+
+			<p><a href="index.html" class="volver">» volver a index «</a></p>
+		</main>
+		<footer>
+			<p>IG2026 - Cátedra: Valeria Drelichman | Pedro Paleo | Leonardo Nadel | Norma Morales</p>
+		</footer>
+	</div>
+    <script src="js/2_estudiantes_tema_azar.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+/* ----------------------------------------------- */
+/* Estilos ejemplo float 2 */
+/* ----------------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+#bloque1 {
+	background: #CCC;
+	width: 500px;
+	height: 500px;
+}
+#bloque2 {
+	background: #CFC;
+	width: 200px;
+	height: 200px;
+	float: left;
+	/*
+	visibility: hidden;
+	display: none;
+	*/
+}
+#bloque3 {
+	background: #FCC;
+	width: 200px;
+	height: 200px;
+	float: left;
+}

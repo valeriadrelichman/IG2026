@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Informática General - Ejemplos clase 10</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Informática General</h1>
+		</header>
+		<main>
+			<h2>Objetos</h2>
+			
+			<section>
+            	<h3>Sistema de pedidos de comida</h3>
+            	<p>Armar un sistema que permita ingresar a través de un formulario los siguientes datos: nombre de la persona, opción de comida y opción de bebida. Las opciones de comida son pasta, pollo o ensalada. Las opciones de bebida son agua con gas, agua sin gas o gaseosa. Un botón permite ingresar los datos de una persona por vez. Otros dos botones muestran el total de cada comida y el total de cada bebida.</p>
+				<form id="ingresoDatos">
+					<label>Ingresar nombre:</label>
+					<input type="text" name="nombre" id="nombre"><br>
+					<label>Opción de comida</label>
+					<select name="comida" id="comida">
+						<option value="pasta">Pasta</option>
+						<option value="pollo">Pollo</option>
+						<option value="ensalada">Ensalada</option>
+					</select><br>
+					<label>Opción de bebida</label>
+					<select name="bebida" id="bebida">
+						<option value="congas">Agua con gas</option>
+						<option value="singas">Agua sin gas</option>
+						<option value="gaseosa">Gaseosa</option>
+					</select><br>
+					<button id="ingresar">Ingresar datos</button>
+				</form>
+				<h3>Pedidos</h3>
+				<button name="pedidoComidas" id="pedidoComidas">Mostrar pedido de comidas</button>
+				<p class="comidas"></p>
+				<button name="pedidoBebidas" id="pedidoBebidas">Mostrar pedido de bebidas</button>
+				<p class="bebidas"></p>
+        	</section>
+
+			<p><a href="index.html" class="volver">» volver a index «</a></p>
+		</main>
+		<footer>
+			<p>IG2026 - Cátedra: Valeria Drelichman | Pedro Paleo | Leonardo Nadel | Norma Morales</p>
+		</footer>
+	</div>
+    <script src="js/3_sistema_comida.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+/* ----------------------------------------------- */
+/* Estilos ejemplo z-index */
+/* ----------------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+div {
+	width: 200px;
+	height: 200px;
+}
+#bloque1 {
+	background: #F00;
+	position: relative;
+	z-index: 3;
+}
+#bloque2 {
+	background: #0F0;
+	position: relative;
+	top: -50px;
+	left: 50px;
+	z-index: 2;
+}
+#bloque3 {
+	background: #00F;
+	position: relative;
+	top: -100px;
+	left: 100px;
+	z-index: 1;
+}
+#bloque4 {
+	background: #BBB;
+	position: relative;
+	top: -350px;
+	left: 150px;
+	z-index: 0;
+}

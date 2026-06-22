@@ -1,0 +1,28 @@
+/* ----------------------------------------------- */
+/* Estilos ejemplo position sticky */
+/* ----------------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+div {
+	width: 200px;
+	height: 200px;
+}
+#bloque1 {
+	background: #F00;
+}
+#bloque2 {
+	background: #0F0;
+	position: sticky;
+	top: 0;
+	left: 100px;
+}
+#bloque3 {
+	background: #00F;
+}
+#bloque4 {
+	background: #BBB;
+	height: 3000px;
+}

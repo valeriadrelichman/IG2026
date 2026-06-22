@@ -1,0 +1,30 @@
+/* ----------------------------------------------- */
+/* Estilos ejemplo position absolute */
+/* ----------------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+div {
+	width: 200px;
+	height: 200px;
+}
+#bloque1 {
+	background: #F00;
+	position: absolute;
+	top: 100px;
+	left: 100px;
+}
+#bloque2 {
+	background: #0F0;
+}
+#bloque3 {
+	background: #00F;
+	position: absolute;
+	bottom: 100px;
+	right: 100px;
+}
+#bloque4 {
+	background: #BBB;
+}

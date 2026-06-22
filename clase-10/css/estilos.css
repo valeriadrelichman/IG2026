@@ -1,0 +1,73 @@
+/* ----------------------------------------------- */
+/* Estilos generales */
+/* ----------------------------------------------- */
+* { box-sizing: border-box; }
+body {
+	margin: 0;
+	padding: 0;
+	background: lightgray;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+#contenedor {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+header, footer {
+	background: orange;
+	padding: 1em;
+	text-align: center;
+}
+main {
+	padding: 2em;
+	background: white;
+}
+h1 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+h2 {
+	font-weight: 700;
+}
+li {
+	line-height: 1.8em;
+}
+a:link {
+	color: orange;
+}
+a:visited {
+	color: orange;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: red;
+}
+a.volver {
+	color: #333;
+	background-color: #EEE;
+	text-decoration: none;
+}
+
+/* ----------------------------------------------- */
+/* Estilos ejemplos */
+/* ----------------------------------------------- */
+
+form {
+	background: lightgray;
+	padding: 1rem;
+	line-height: 2rem;
+}
+
+#cartelera {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#cartelera div {
+	margin: 1rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
