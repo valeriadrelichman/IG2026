@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Informática General - Ejemplos clase 11</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Informática General</h1>
+		</header>
+		<main>
+			<h2>Ejemplo jugadores</h2>
+			
+			<section>
+            	<h3>Jugadores</h3>
+            	<p>Crear un sistema de botones para ir contando la cantidad de veces que cada jugador gana una partida. Los datos de los jugadores están definidos en un array de objetos. Se deberá ir mostrando la información actualizada. Incluir un botón para reiniciar todos los puntajes.</p>
+            	<form id="tableroPuntajes">
+            		<fieldset>
+            			<legend>Jugador 1</legend>
+            			<label>Nombre:</label>
+						<input type="text" name="nombre1" id="nombre1" disabled><br>
+						<label>Puntaje:</label>
+						<input type="number" name="puntaje1" id="puntaje1" disabled><br>
+						<button id="gano1">Ganó</button>
+            		</fieldset>
+            		<fieldset>
+            			<legend>Jugador 2</legend>
+            			<label>Nombre:</label>
+						<input type="text" name="nombre2" id="nombre2" disabled><br>
+						<label>Puntaje:</label>
+						<input type="number" name="puntaje2" id="puntaje2" disabled><br>
+						<button id="gano2">Ganó</button>
+            		</fieldset>
+            		<fieldset>
+            			<legend>Jugador 3</legend>
+            			<label>Nombre:</label>
+						<input type="text" name="nombre3" id="nombre3" disabled><br>
+						<label>Puntaje:</label>
+						<input type="number" name="puntaje3" id="puntaje3" disabled><br>
+						<button id="gano3">Ganó</button>
+            		</fieldset>
+					<button id="reiniciar">Reiniciar puntajes</button>
+				</form>
+        	</section>
+
+			<p><a href="index.html" class="volver">» volver a index «</a></p>
+		</main>
+		<footer>
+			<p>IG2026 - Cátedra: Valeria Drelichman | Pedro Paleo | Leonardo Nadel | Norma Morales</p>
+		</footer>
+	</div>
+    <script src="js/6_jugadores.js"></script>
+</body>
+</html>

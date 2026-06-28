@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Informática General - Ejemplos clase 11</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Informática General</h1>
+		</header>
+		<main>
+			<h2>Ejemplo personas</h2>
+			
+			<section>
+            	<h3>Personas</h3>
+            	<p>Utilizar un formulario para obtener los datos de 6 personas. Se quiere conocer nombre, apellido y edad de cada persona. Guardar los datos en un array de objetos. Antes de guardar los datos se los debe validar. Cuando se cargaron todos los datos, ocultar el formulario y mostrar los datos de la persona de menor edad.</p>
+            	<form id="ingresoDatos">
+					<label>Ingresar nombre:</label>
+					<input type="text" name="nombre" id="nombre"><br>
+					<label>Ingresar apellido:</label>
+					<input type="text" name="apellido" id="apellido"><br>
+					<label>Ingresar edad:</label>
+					<input type="number" name="edad" id="edad"><br>
+					<button id="ingresar">Ingresar datos</button>
+				</form>
+				<p class="resultado"></p>
+        	</section>
+
+			<p><a href="index.html" class="volver">» volver a index «</a></p>
+		</main>
+		<footer>
+			<p>IG2026 - Cátedra: Valeria Drelichman | Pedro Paleo | Leonardo Nadel | Norma Morales</p>
+		</footer>
+	</div>
+    <script src="js/5_personas.js"></script>
+</body>
+</html>
