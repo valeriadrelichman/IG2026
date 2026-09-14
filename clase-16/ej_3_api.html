@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Informática General - Ejemplos clase 16</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Informática General</h1>
+		</header>
+		<main>
+			<h2>APIs</h2>
+			
+			<section>
+            	<h3>Ejemplo 3</h3>
+            	<p>Pide a la API cinco preguntas de opción múltiple, mezcla las opciones, valida cada respuesta del usuario y muestra el puntaje final; luego permite jugar nuevamente</p>
+				<p id="estado" class="gris">Cargando preguntas...</p>
+        	</section>
+
+			<section id="juego" class="oculto">
+    			<p id="progreso"></p>
+    			<h3 id="pregunta"></h3>
+    			<div id="opciones"></div>
+    			<p id="resultado" class="resultado"></p>
+    			<button id="siguiente" type="button" hidden>Siguiente pregunta</button>
+  			</section>
+ 			
+			<section id="final" class="oculto">
+    			<h3>Resultado final</h3>
+    			<p id="puntaje" class="resultado"></p>
+    			<button id="reiniciar" type="button">Jugar nuevamente</button>
+  			</section>
+  			<button id="reintentar" type="button" hidden>Intentar nuevamente</button>
+
+			<p><a href="index.html" class="volver">» volver a index «</a></p>
+		</main>
+		<footer>
+			<p>IG2026 - Cátedra: Valeria Drelichman | Pedro Paleo | Leonardo Nadel | Norma Morales</p>
+		</footer>
+	</div>
+    <script src="js/3_api.js"></script>
+</body>
+</html>
