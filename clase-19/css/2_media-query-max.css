@@ -1,0 +1,14 @@
+/* ----------------------------------------------- */
+/* Estilos ejemplo media query max-width */
+/* ----------------------------------------------- */
+
+body {
+	background: hotpink;
+	margin: 2em;
+}
+
+@media (max-width: 960px) {
+	body { 
+		background: steelblue; 
+	}
+}

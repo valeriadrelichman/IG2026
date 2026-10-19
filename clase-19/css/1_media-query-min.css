@@ -1,0 +1,14 @@
+/* ----------------------------------------------- */
+/* Estilos ejemplo media query min-width */
+/* ----------------------------------------------- */
+
+body {
+	background: green;
+	margin: 2em;
+}
+
+@media (min-width: 960px) {
+	body { 
+		background: red; 
+	}
+}
