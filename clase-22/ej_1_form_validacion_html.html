@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Informática General - Ejemplos clase 22</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Informática General</h1>
+		</header>
+		<main>
+			<h2>Ejemplo formulario</h2>
+			
+			<section>
+            <h3>Por favor, complete el siguiente formulario</h3>
+            <form action="#" method="get" class="formulario-html">
+            <!-- En este ejemplo no hay un servidor configurado para procesar los datos. 
+			 Por eso se utiliza # como destino y el formulario vuelve a cargar la página. 
+			 Al enviar el formulario con GET los datos aparecen en la URL.-->
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre: *</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <label for="apellido">Apellido: *</label>
+                    <input type="text" name="apellido" id="apellido" required>
+                    <label for="dni">DNI:</label>
+                    <!-- pattern no se puede usar en type="number"
+					 se usa type="text" para validar los dígitos con pattern
+					 inputmode="numeric" muestra el teclado numérico -->
+                    <input type="text" name="dni" id="dni" inputmode="numeric" pattern="[0-9]+">
+                </fieldset>
+                <fieldset>
+                    <legend>Datos de usuario</legend>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <label for="codigo">Código:</label>
+                    <input type="text" name="codigo" id="codigo" pattern="[A-Z]{3}[0-9]{3}">
+                </fieldset>
+                <button type="submit">Enviar</button>
+            </form>
+        	</section>
+
+			<p><a href="index.html" class="volver">» volver a index «</a></p>
+		</main>
+		<footer>
+			<p>IG2026 - Cátedra: Valeria Drelichman | Pedro Paleo | Leonardo Nadel | Norma Morales</p>
+		</footer>
+	</div>
+</body>
+</html>

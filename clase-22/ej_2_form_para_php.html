@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Informática General - Ejemplos clase 22</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Poppins:wght@800&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<header>
+			<h1>Informática General</h1>
+		</header>
+		<main>
+			<h2>Ejemplo formulario</h2>
+			
+			<section>
+            <h3>Por favor, complete el siguiente formulario</h3>
+            <form action="ej_2_procesar-form.php" method="post" name="formulario" id="formulario" novalidate>
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    <label for="nombre">Nombre: *</label>
+                    <input type="text" name="nombre" id="nombre" required>
+                    <br>
+                    <label for="email">Email: *</label>
+                    <input type="email" name="email" id="email" required>
+                    <br>
+                    <label for="comentarios">Comentarios</label>
+                    <textarea name="comentarios" id="comentarios"></textarea>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+			<p id="mensaje-error" role="alert" aria-live="polite"></p>
+        	</section>
+
+			<p><a href="index.html" class="volver">» volver a index «</a></p>
+		</main>
+		<footer>
+			<p>IG2026 - Cátedra: Valeria Drelichman | Pedro Paleo | Leonardo Nadel | Norma Morales</p>
+		</footer>
+	</div>
+	<script src="js/2_validacion.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+/* ----------------------------------------------- */
+/* Estilos generales */
+/* ----------------------------------------------- */
+* { box-sizing: border-box; }
+body {
+	margin: 0;
+	padding: 0;
+	background: lightgray;
+	font-family: "Hanken Grotesk", sans-serif;
+}
+#contenedor {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+header, footer {
+	background: orange;
+	padding: 1em;
+	text-align: center;
+}
+main {
+	padding: 2em;
+	background: white;
+}
+h1 {
+	font-family: "Poppins", sans-serif;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+h2 {
+	font-weight: 700;
+}
+li {
+	line-height: 1.8em;
+}
+a:link {
+	color: orange;
+}
+a:visited {
+	color: orange;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: red;
+}
+a.volver {
+	color: #333;
+	background-color: #EEE;
+	text-decoration: none;
+}
+
+/* ----------------------------------------------- */
+/* Estilos ejemplo formulario */
+/* ----------------------------------------------- */
+
+form {
+	background: #BBB;
+	border: 0.4rem solid darkorange;
+	padding: 1rem;
+}
+fieldset {
+	background: #DDD;
+	border: 0.2rem solid orange;
+	margin: 1rem 0;
+}
+legend {
+	color: darkorange;
+	font-weight: bold;
+	text-transform: uppercase;
+	background: #FFF;
+	padding: 0.2rem;
+}
+label {
+	color: black;
+	font-weight: bold;
+}
+button {
+	background: darkorange;
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+	padding: 0.5rem;
+}
+
+/* Muestra visualmente los campos que no cumplen las validaciones HTML5 */
+form.formulario-html input:invalid {
+	border: 0.15rem solid #c62828;
+	background-color: #ffebee;
+}
